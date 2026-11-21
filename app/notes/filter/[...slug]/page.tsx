@@ -4,7 +4,7 @@ import {
   QueryClient,
 } from "@tanstack/react-query";
 import { notFound } from "next/navigation";
-import NotesClient from "@/app/notes/Notes.client";
+import NotesClient from "./Notes.client";
 import { fetchNotes } from "@/lib/api/notes";
 import { getApiTag, parseNoteFilter } from "@/lib/notes/filter";
 import { noteKeys } from "@/lib/query/keys";
